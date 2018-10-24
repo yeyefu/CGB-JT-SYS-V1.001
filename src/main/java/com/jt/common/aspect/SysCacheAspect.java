@@ -16,7 +16,6 @@ import com.jt.common.cache.ServiceMapCache;
 /***
  * 通过此切面对象,将业务层查询数据存储缓存,需要时从缓存取,相对于
  * 直接从数据库获取,会有很大性能提升.
- * @author ta
  */
 
 @Aspect
